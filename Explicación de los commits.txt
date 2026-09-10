@@ -1,0 +1,9 @@
+Explicación de los commits:
+
+8258d04 (HEAD -> main) añadimiento de json
+5778c63 añadir el css
+c4191c6 (origin/main) Actualizar titulo de la pagina
+12b2cbe Correciones (imagenes)
+24970c0 Correciones (html)
+6831425 modificacion html
+0412d91 Crear estructura inicial de la pagina web
