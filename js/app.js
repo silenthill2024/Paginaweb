@@ -1,9 +1,9 @@
-
-// Obtener los videojuegos guardados en LocalStorage
+//logica de la pagina de videojuegos
+// Obtener los videojuegos guardados en LocalStorage en sistema de almacenamiento local del navegador
 let juegos = JSON.parse(localStorage.getItem("juegos")) || [];
 
 
-// Función para mostrar un videojuego seleccionado
+// Función para mostrar un videojuego seleccionado 
 function mostrarJuego(nombre) {
 
     const mensaje = document.getElementById("mensajeJuego");
@@ -13,12 +13,12 @@ function mostrarJuego(nombre) {
 }
 
 
-// Función para agregar un videojuego
+// Función para agregar un videojuego nuevo
 function agregarJuego() {
 
     const nombre = document.getElementById("nombreJuego").value;
 
-    // Comprobar que el campo no esté vacío
+    // Comprobar que el campo no esté vacío 
     if (nombre === "") {
 
         alert("Escribe el nombre de un videojuego");
@@ -27,7 +27,7 @@ function agregarJuego() {
     }
 
 
-    // Crear el objeto del videojuego
+    // Crear el objeto del videojuego en id 
     const juego = {
 
         id: Date.now(),
