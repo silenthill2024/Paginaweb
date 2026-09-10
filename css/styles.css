@@ -1,0 +1,25 @@
+body 
+{ background-color: #f4f4f4; font-family: Arial, sans-serif; } 
+.hero 
+{ background-color: #151515; color: white; padding: 100px 20px; }
+ 
+.hero h1 
+{ font-size: 48px; font-weight: bold; } 
+ 
+.card 
+{ transition: transform 0.3s; } 
+ 
+.card:hover 
+{ transform: translateY(-8px); } 
+ 
+.imagen-juego 
+{ width: 100%; height: 300px; object-fit: cover; } 
+ 
+ .card-title 
+ { font-weight: bold; } 
+
+#mensajeJuego 
+{ min-height: 50px; } 
+
+footer 
+{ margin-top: 50px; }
