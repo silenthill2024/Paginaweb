@@ -1,6 +1,6 @@
 Explicación de los commits:
-
-8258d04 (HEAD -> main) añadimiento de json
+e48f234 (HEAD -> main) descripcion cambiado
+8258d04 añadimiento de json
 5778c63 añadir el css
 c4191c6 (origin/main) Actualizar titulo de la pagina
 12b2cbe Correciones (imagenes)
